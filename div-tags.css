@@ -1,0 +1,29 @@
+#wrapper {
+    width: 90%;
+    background-color: blue;
+    margin: auto;
+}
+
+header {
+    background-color: red;
+}
+
+nav {
+    background-color: aqua;
+}
+
+#section_1 {
+    background-color: khaki;
+}
+
+#section_2 {
+    background-color: rebeccapurple;
+}
+
+aside {
+    background-color: olive;
+}
+
+footer {
+    background-color: bisque;
+}
