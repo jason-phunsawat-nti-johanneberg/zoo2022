@@ -4,6 +4,55 @@
     grid-gap: 20px;
   }
   
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: sans-serif;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    flex: 1;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #333;
+    display: block;
+    padding: 10px 0;
+    text-decoration: none;
+  }
+  
+  main {
+    display: flex;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
   .card {
     display: flex;
     flex-direction: column;
